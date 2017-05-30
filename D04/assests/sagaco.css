@@ -1,0 +1,52 @@
+body {
+	font-family: 'open sans';
+}
+
+#container {
+	width: 770px;
+	margin: 0 auto;
+}
+
+#top {
+	height: 262px;
+	background-image: url('sagaco-imgs/Banner_img.gif');	
+}
+
+#nav {
+	background-color: #4D7080;
+	height: 42px;
+}
+
+#nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#nav li {
+	float: left;
+	/*background-color: #4D7080;*/
+}
+
+#nav a {
+	color: #eee;
+	text-decoration: none;
+	display: inline-block;
+	width: 110px;
+	height: 42px;
+	line-height: 42px;
+	text-align: center;
+	font-weight: bold;
+
+	background-image: url('sagaco-imgs/BannerSeparate.gif');
+	background-repeat: no-repeat;
+	background-position: top right;
+}
+
+	#nav a:hover {
+		color: #fff;
+	}
+
+#sep {
+	clear: both;
+}
